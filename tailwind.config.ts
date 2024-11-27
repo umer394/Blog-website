@@ -52,7 +52,10 @@ export default {
   			}
   		},
 		backgroundImage:{
-			"pic" : "url('/bg.png')"
+			"pic" : "url('/bg.png')",
+			// "car1":"url('pic1.jpg')",
+			// "car2":"url('pic2.jpg')",
+			// "car3":"url('pic3.jpg')"
 		},
   		borderRadius: {
   			lg: 'var(--radius)',
