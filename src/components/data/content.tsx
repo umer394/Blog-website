@@ -27,5 +27,26 @@ export const carData: Data[] = [
       title: "Electric SUV",
       img: "/pic3.jpg",
       description: "A luxury electric SUV with autopilot and futuristic features."
+    },
+    {
+        id: 4,
+        name: "Tesla Model X",
+        title: "Electric SUV",
+        img: "/pic4.jpg",
+        description: "A luxury electric SUV with autopilot and futuristic features."
+    },
+    {
+        id: 5,
+        name: "Tesla Model X",
+        title: "Electric SUV",
+        img: "/pic5.jpg",
+        description: "A luxury electric SUV with autopilot and futuristic features."
+    },
+    {
+        id: 6,
+        name: "Tesla Model X",
+        title: "Electric SUV",
+        img: "/pic6.jpg",
+        description: "A luxury electric SUV with autopilot and futuristic features."
     }
   ];

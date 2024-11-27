@@ -52,7 +52,7 @@ export default {
   			}
   		},
 		backgroundImage:{
-			"pic" : "url('/bg.png')",
+			"pic" : "url('/car.png')",
 			// "car1":"url('pic1.jpg')",
 			// "car2":"url('pic2.jpg')",
 			// "car3":"url('pic3.jpg')"

@@ -12,10 +12,7 @@ export default function Blog(){
     return (
         <main >
             <BlogPage/>
-            <div className="bg-black">
-                <div>
-
-                </div>
+            <div className="bg-white  py-20  ">
                 <CardDemo/>
             </div>
         </main>
