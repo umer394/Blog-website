@@ -12,8 +12,12 @@ export default function Blog(){
     return (
         <main >
             <BlogPage/>
-            <div className="bg-white  py-20  ">
+            <div className="bg-[#161616]  py-20   " id="Card">
+                <div className="max-w-[1200px] mx-auto">
                 <CardDemo/>
+
+                </div>
+                
             </div>
         </main>
     )

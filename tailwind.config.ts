@@ -61,7 +61,15 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},animation : {
+			'bounce-slow': 'bounce 10s infinite',
+			'bounce-soft': 'customBounce 3s infinite',
+		},keyframes: {
+			customBounce: {
+			  '0%, 100%': { transform: 'translateY(-10px)' }, // kam upar
+			  '50%': { transform: 'translateY(5px)' },       // kam neeche
+			},
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],

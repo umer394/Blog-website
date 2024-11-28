@@ -3,10 +3,11 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { carData } from "../data/content";
 import { style } from "framer-motion/client";
+import Link from "next/link";
 
 export function CardDemo() {
   return (
-    <div className=" w-full group/card grid grid-cols-3 gap-8 ">
+    <div className=" w-full group/card grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
       {carData.map((item)=>{
         return (
 
@@ -20,11 +21,12 @@ export function CardDemo() {
         )}
         style={{backgroundImage:`url('${item.img}')`}}
       >
+        <Link href={""} >
         <div className="absolute w-full h-full top-0 left-0 transition duration-300 hover:bg-black opacity-60"></div>
         <div className="flex flex-row items-center space-x-4 z-10">
           <Image
-            height="100"
-            width="100"
+            height={200}
+            width={800}
             alt="Avatar"
             src={item.img}
             className="h-10 w-10 rounded-full border-2 object-cover"
@@ -44,6 +46,7 @@ export function CardDemo() {
             {item.description}
           </p>
         </div>
+        </Link>
       </div>
       )})}
     </div>
